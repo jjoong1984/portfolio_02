@@ -1,0 +1,365 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; box-sizing:border-box }
+a { color:inherit; text-decoration:none }
+img { vertical-align:middle }
+ul { list-style-type: none }
+.cf:after { content:''; display:block; clear:both;}
+.blind { width:0; height:0; position: absolute;
+text-indent:-9999999px; font-size:0px; overflow:hidden; }
+fieldset { border:none; }
+legend { display:none; }
+button, input[type=submit], input[type=reset] { 
+    border:none; background:none;
+    cursor:pointer;
+}  
+
+body {  background:#fff; }
+
+.onlyMobile { 
+    position: absolute;
+    top:0; bottom:0; left:0; right:0;
+    background:#333;
+    z-index: 9999999;
+    color: #fff;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:35px;
+    text-align: center;
+}
+@media screen and ( max-width:768px) { 
+    .onlyMobile { display: none}
+}
+.onlyMobile > div { 
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.onlyMobile img { height: 150px; margin-bottom: 20px; }
+.onlyMobile span { display:block; }
+
+/* header */
+#header { 
+    display:flex;
+    justify-content:space-between;   
+    /* background: red; */
+    height: 70px;;
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    z-index: 9999;
+    background:#fff;
+}
+#header .logo { 
+    margin: 10px 0 10px 15px;
+}
+#header .logo img { 
+    height:48px;
+}
+#header .row { 
+    display:flex;
+}
+
+#header .row .search,
+#header .row .lnb_menu {
+    font-size:22px;
+    color:#555;
+    margin: 18px 0;
+}
+#header .row .lnb_menu { 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* 메인컨텐트 */
+#container { margin-top:70px;
+    margin-bottom: 40px;
+}
+#container .mainContent { 
+    height:530px;
+    background: #fcc232
+}
+#container .mainContent .mainTit { 
+    text-align: center;
+    color:#fff;
+    font-size: 21px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding:10px 0
+}
+#container .mainContent .mainTit span { 
+    font-size: 28px;
+}
+#container .mainMenu { padding:0 10px; text-align: center;}
+#container .mainMenu a {
+    width:100%; height:100% ;
+    display: block;
+    position: relative;
+}
+#container .mainMenu img { max-width:100%; height: 100px; position: absolute; top:45%; left:50%; 
+transform:translate(-50%, -50%);
+z-index: 99;
+animation: jump 2s infinite
+}
+#container .mainMenu .exhibition img { 
+    left:53%; 
+}
+@-webkit-keyframes jump { 
+    0% { top:45% }
+    50% { top: 35% }
+    100% {top:45% }
+}
+@keyframes jump { 
+    0% { top:45% }
+    50% { top: 40% }
+    100% {top:45% }
+}
+#container .mainMenu p { color:#fff;        font-weight:bold; position: absolute;
+    bottom:7%; left:50%;
+    transform:translateX(-50%);
+
+}
+#container .mainMenu p:after { 
+    content:'';
+    width:60px;
+    height:20px;
+    background:rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom:100%; left:50%;
+    transform:translateX(-50%);
+    border-radius: 50%;  
+    animation: jumpShadow 2s infinite
+}
+@-webkit-keyframes jumpShadow { 
+    0% { width:60px; height:20px; }
+    50% { width:40px; height:16px; }
+    100% {width:60px; height:20px;}
+}
+@keyframes jumpShadow { 
+    0% { width:60px; height:20px; }
+    50% { width:40px; height:16px;  }
+    100% {width:60px; height:20px;}
+}
+#container .mainMenu .mainBox > div { 
+    border:5px solid #fff;
+    border-radius: 20px;
+    height:165px ;
+}
+#container .mainMenu .mainBox1 { 
+    display:grid;
+    grid-template-columns : 50% 50%;
+    height: 100%;
+}
+#container .mainMenu .mainBox2 { 
+    display:grid;
+    grid-template-columns : 50% 50%;;
+    height: 100%;
+    margin:10px 0;
+}
+#container .mainMenu .mainBox1 .kids { background: #abe54e;}
+#container .mainMenu .mainBox1 .park { background: #c87dcc;}
+#container .mainMenu .mainBox2 .exhibition { background: #f99f4e;}
+#container .mainMenu .mainBox2 .studio { background: #f49ac7;}
+#container .mainMenu .mainBox1 .kids,
+#container .mainMenu .mainBox2 .exhibition { 
+    margin-right: 5px;
+}
+#container .mainMenu .mainBox1 .park,
+#container .mainMenu .mainBox2 .studio { 
+    margin-left: 5px;
+}
+#container .mainContent .PersonalInfo { 
+    text-align: center;
+    margin-top: 10px;
+}
+#container .mainContent .PersonalInfo a { 
+    border: 1px solid #fff;
+    color:#fff;
+    font-size:10px;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+#container .mainContent .logo { 
+    margin: 15px 0 7px;
+    text-align: center;
+}
+#container .mainContent .logo img { 
+    height:30px
+}
+#container .mainContent .copyright { 
+    font-size:10px;
+    color:#fff;
+    text-align: center;
+}
+
+/* footer */
+#footer { 
+    display: flex;
+    height:40px;
+    position: fixed;
+    width: 100%;
+    bottom:0; left:0;
+    background:#fff;;
+    z-index: 99999;
+}
+#footer > div { 
+    text-align: center;
+    flex: 1;
+    position: relative;
+}
+#footer > div a {
+    color: #555;
+    /* border:1px solid #ddd; */
+    border-radius: 50%;
+    height: 70px; width:70px;
+    display:block;
+    position: absolute;
+    top:-25px; left:50%;
+    margin-left: -35px;
+    background: #fff;
+
+}
+#footer > div a .menuBtn { 
+    position: absolute;
+    top:50%; left:50%;
+    transform:translate(-50%, -50%)
+
+}
+#footer > div a i { font-size: 23px;}
+#footer > div a p { font-size: 11px;}
+
+/* 키즈카페 */
+#container .kidsCafeContent {
+    background: #abe54e;
+    height:690px;
+}
+#container #content .mainTit { position: relative;}
+#container #content .mainTit .prev i { 
+    color:#fff;
+    font-size: 24px;
+    position: absolute;
+    top:50%; left:10px;
+    margin-top: -12px;
+}
+#container #content .mainTit h2 { 
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding:10px 0;
+    font-weight: normal;
+}
+#container #content ul { 
+    padding: 0 10px;
+}
+#container #content li { 
+    display:grid;
+    grid-template-columns: 140px auto;
+    background:#fff;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+#container .kidsCafeContent .photo img { 
+    height:120px;
+    border: 4px solid #abe54e;
+    border-radius: 50%;
+}
+#container #content .txt { 
+    margin-top: 12px;
+}
+#container .kidsCafeContent .txt a { 
+    display: block;
+    color: #abe54e;
+    padding-bottom:5px;
+    position: relative;
+    font-size:15.5px;
+}
+#container .kidsCafeContent .txt a:after { 
+    content:'';
+    width:100%;
+    height:1px;
+    background:#abe54e;
+    position: absolute;
+    bottom:0; left: 0;
+}
+#container #content .txt p { 
+    color: #aaa;
+    font-size:14px;
+    margin:5px 0;
+}
+
+/* 공원 */
+#container .parkContent {
+    background: #c87dcc;
+    height:690px;
+}
+#container .parkContent .photo img { 
+    height:120px;
+    border: 4px solid #c87dcc;
+    border-radius: 50%;
+}
+#container .parkContent .txt a { 
+    display: block;
+    color: #c87dcc;
+    padding-bottom:5px;
+    position: relative;
+    font-size:15.5px;
+}
+#container .parkContent .txt a:after { 
+    content:'';
+    width:100%;
+    height:1px;
+    background:#c87dcc;
+    position: absolute;
+    bottom:0; left: 0;
+}
+
+/* 공원 */
+#container .exhibitionContent {
+    background: #f99f4e;
+    height:690px;
+}
+#container .exhibitionContent .photo img { 
+    height:120px;
+    border: 4px solid #f99f4e;
+    border-radius: 50%;
+}
+#container .exhibitionContent .txt a { 
+    display: block;
+    color: #f99f4e;
+    padding-bottom:5px;
+    position: relative;
+    font-size:15.5px;
+}
+#container .exhibitionContent .txt a:after { 
+    content:'';
+    width:100%;
+    height:1px;
+    background:#f99f4e;
+    position: absolute;
+    bottom:0; left: 0;
+}
+
+/* 사진관 */
+#container .studioContent {
+    background: #f49ac7;
+    height:690px;
+}
+#container .studioContent .photo img { 
+    height:120px;
+    border: 4px solid #f49ac7;
+    border-radius: 50%;
+}
+#container .studioContent .txt a { 
+    display: block;
+    color: #f49ac7;
+    padding-bottom:5px;
+    position: relative;
+    font-size:15.5px;
+}
+#container .studioContent .txt a:after { 
+    content:'';
+    width:100%;
+    height:1px;
+    background:#f49ac7;
+    position: absolute;
+    bottom:0; left: 0;
+}
