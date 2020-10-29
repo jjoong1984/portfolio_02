@@ -4,25 +4,25 @@
             "name":"벨르비쥬 프리미엄 키즈카페",
             "depart":"키즈카페, 실내놀이터",
             "info":"블로그리뷰 36",
-            "photo":"images/kids1.jpg"
+            "photo":"images/kids1.png"
         },
         {
             "name":"나무와아이 의정부점",
             "depart":"키즈카페, 실내놀이터",
             "info":"블로그리뷰 15",
-            "photo":"images/kids2.jpg"
+            "photo":"images/kids2.png"
         },
         {
             "name":"리틀란드 신세계백화점",
             "depart":"키즈카페, 실내놀이터",
             "info":"블로그리뷰 4",
-            "photo":"images/kids3.jpg"
+            "photo":"images/kids3.png"
         },
         {
             "name":"루나루즈 키즈카페",
             "depart":"키즈카페, 실내놀이터",
             "info":"블로그리뷰 76",
-            "photo":"images/kids4.jpg"
+            "photo":"images/kids4.png"
         }
     ],
     
@@ -31,25 +31,25 @@
             "name":"직동근린공원",
             "depart":"근린공원",
             "info":"경기 의정부시 호국로1162번길 73",
-            "photo":"images/park1.jpg"
+            "photo":"images/park1.png"
         },
         { 
             "name":"무한상상시민정원",
             "depart":"자연공원",
             "info":"경기 의정부시 시민로 100",
-            "photo":"images/park2.jpg"
+            "photo":"images/park2.png"
         },
         { 
             "name":"낙양사랑공원",
             "depart":"근린공원",
             "info":"경기 의정부 낙양동697",
-            "photo":"images/park3.jpg"
+            "photo":"images/park3.png"
         },
         { 
             "name":"오목문화공원",
             "depart":"근린공원",
             "info":"경기 의정부시 민락동",
-            "photo":"images/park4.jpg"
+            "photo":"images/park4.png"
         }
     ],
 
@@ -58,25 +58,25 @@
             "name":"의정부예술의전당",
             "depart":"공연장",
             "info":"경기 의정부시 의정로1 의정부예술의전당",
-            "photo":"images/exhibition1.jpg"
+            "photo":"images/exhibition1.png"
         },
         { 
             "name":"의정부 우리소극장",
             "depart":"공연장",
             "info":"경기 의정부시 용민로 483",
-            "photo":"images/exhibition2.jpg"
+            "photo":"images/exhibition2.png"
         },
         { 
             "name":"스카이공연홀",
             "depart":"공연장",
             "info":"경기 의정부시 호국로 1320",
-            "photo":"images/exhibition3.jpg"
+            "photo":"images/exhibition3.png"
         },
         { 
             "name":"휴앤무",
             "depart":"공연장",
             "info":"경기 의정부시 용민로26번길 42",
-            "photo":"images/exhibition4.jpg"
+            "photo":"images/exhibition4.png"
         }
     ],
 
@@ -85,25 +85,25 @@
             "name":"아리아스튜디오",
             "depart":"아기사진전문",
             "info":"평일 10:00~18:00",
-            "photo":"images/studio1.jpg"
+            "photo":"images/studio1.png"
         },
         { 
             "name":"하늘곰스튜디오",
             "depart":"아기사진전문",
             "info":"평일 10:00~18:00 ",
-            "photo":"images/studio2.jpg"
+            "photo":"images/studio2.png"
         },
         { 
             "name":"딸기쨈스튜디오",
             "depart":"아기사진전문",
             "info":"매일 10:00~18:30",
-            "photo":"images/studio3.jpg"
+            "photo":"images/studio3.png"
         },
         { 
             "name":"베일리수 의정부점",
             "depart":"아기사진전문",
             "info":"매일 09:30~19:00",
-            "photo":"images/studio4.jpg"
+            "photo":"images/studio4.png"
         }
     ]
 
