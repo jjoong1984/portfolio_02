@@ -66,6 +66,42 @@ body {  background:#fff; }
     margin-right: 10px;
     margin-left: 10px;
 }
+#header .wrap { 
+    position: fixed;
+    top:0; left:0; bottom:0; right:0;
+    background:rgba(0, 0, 0, 0.7);
+    z-index: 999999;
+    display:none;
+}
+#header .wrap .lnb { 
+    background:#fcc232;
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    right:-200px;
+    height: 100%;
+}
+#header .wrap .lnb ul { 
+    margin-left: 15px;
+}
+#header .wrap .lnb ul li{ 
+    margin:15px 0;
+}
+#header .wrap .lnb ul li i{ 
+    font-size: 22px;
+    vertical-align: middle;
+}
+#header .wrap .lnb ul li span{ 
+    vertical-align: middle;
+    margin-left: 3px;
+}
+#header .wrap .lnb .lnb_close { 
+    font-size: 27px;
+    position: absolute;
+    top:10px; left:-37px;
+    cursor: pointer;
+}
+
 /* 메인컨텐트 */
 #container { margin-top:70px;
     margin-bottom: 40px;
@@ -194,7 +230,7 @@ animation: jump 2s infinite
     width: 100%;
     bottom:0; left:0;
     background:#fff;;
-    z-index: 99999;
+    z-index: 999;
 }
 #footer > div { 
     text-align: center;
