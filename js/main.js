@@ -1,6 +1,6 @@
 (function($){ 
 
-    $('body').on('click', '#header h1 a ,#footer .home a, #footer .map a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a', function(e){ 
+    $('body').on('click', '#header h1 a ,#footer .home a, #footer .map a, #footer .login a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a', function(e){ 
         e.preventDefault()
         var url = this.href
         $('#container > #content').remove()
@@ -35,8 +35,8 @@
             for(var i in useData[part]) { 
                 newContent += `<li><div class="photo"><a href="${useData[part][i].url}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
                 newContent += `<div class="txt"><h3><a href="${useData[part][i].url}">${useData[part][i].name}</a></h3>`
-                newContent += `<p>${useData[part][i].depart}</p>`
-                newContent += `<p>${useData[part][i].info}</p></div></li>`
+                newContent += `<a href="${useData[part][i].url}"><p>${useData[part][i].depart}</p></a>`
+                newContent += `<a href="${useData[part][i].url}"><p>${useData[part][i].info}</p></a></div></li>`
             }
             $('#content .contentBox').html('<ul>'+newContent+'</ul>')
         })

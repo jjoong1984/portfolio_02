@@ -61,10 +61,11 @@ body {  background:#fff; }
     font-size:24px;
     color:#555;
     margin: 18px 0;
-}
-#header .lnb_menu { 
     margin-right: 10px;
     margin-left: 10px;
+}
+#header .lnb_menu a { 
+    padding: 12px;
 }
 #header .wrap { 
     position: fixed;
@@ -296,18 +297,18 @@ animation: jump 2s infinite
     border-radius: 50%;
 }
 #container #content .txt { 
-    margin-top: 12px;
+    margin-top: 18px;
 }
-#container .kidsCafeContent .txt a { 
+#container .kidsCafeContent .txt h3 a { 
     display: block;
     color: #abe54e;
     padding-bottom:5px;
     position: relative;
     font-size:15.5px;
 }
-#container .kidsCafeContent .txt a:after { 
+#container .kidsCafeContent .txt h3 a:after { 
     content:'';
-    width:100%;
+    width: 165px;
     height:1px;
     background:#abe54e;
     position: absolute;
@@ -329,16 +330,16 @@ animation: jump 2s infinite
     border: 4px solid #c87dcc;
     border-radius: 50%;
 }
-#container .parkContent .txt a { 
+#container .parkContent .txt h3 a { 
     display: block;
     color: #c87dcc;
     padding-bottom:5px;
     position: relative;
     font-size:15.5px;
 }
-#container .parkContent .txt a:after { 
+#container .parkContent .txt h3 a:after { 
     content:'';
-    width:100%;
+    width:165px;;
     height:1px;
     background:#c87dcc;
     position: absolute;
@@ -355,16 +356,16 @@ animation: jump 2s infinite
     border: 4px solid #f99f4e;
     border-radius: 50%;
 }
-#container .exhibitionContent .txt a { 
+#container .exhibitionContent .txt h3 a { 
     display: block;
     color: #f99f4e;
     padding-bottom:5px;
     position: relative;
     font-size:15.5px;
 }
-#container .exhibitionContent .txt a:after { 
+#container .exhibitionContent .txt h3 a:after { 
     content:'';
-    width:100%;
+    width:165px;;
     height:1px;
     background:#f99f4e;
     position: absolute;
@@ -381,16 +382,16 @@ animation: jump 2s infinite
     border: 4px solid #f49ac7;
     border-radius: 50%;
 }
-#container .studioContent .txt a { 
+#container .studioContent .txt h3 a { 
     display: block;
     color: #f49ac7;
     padding-bottom:5px;
     position: relative;
     font-size:15.5px;
 }
-#container .studioContent .txt a:after { 
+#container .studioContent .txt h3 a:after { 
     content:'';
-    width:100%;
+    width:165px;;
     height:1px;
     background:#f49ac7;
     position: absolute;
@@ -402,6 +403,34 @@ animation: jump 2s infinite
     background: #fcc232;
     height:530px;
 }
+
+/* 로그인 페이지*/
+#container .loginContent {
+    background: #fcc232;
+    height:530px;
+}
+#container .loginContent form { 
+    width:75%;
+    margin: 30px auto 0;
+}
+#container .loginContent input{ 
+    width:100%;
+    height:40px;
+    border:1px solid #ddd;
+    background:#fff;
+    margin-bottom: 15px;
+    text-indent:5px;
+}
+#container .loginContent .btn { 
+    text-align:center;
+}
+#container .loginContent button { 
+    color: #555;
+    margin:0 10px;
+}
+
+
+
 
 /* 서브 지도 페이지 */
 #container .kidsMapContent {
