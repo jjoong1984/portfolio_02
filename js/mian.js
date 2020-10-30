@@ -1,10 +1,10 @@
 (function($){ 
 
-    $('#body').on('click', '#header h1 a, #footer .home a, .mainTit .prev a', function(){ 
+    $('body').on('click', '#header h1 a, #footer .home a, #footer .map a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a', function(e){ 
+        e.preventDefault()
         var url = this.href
         $('#container > #content').remove()
         $('#container').load(url + " #content")
-        return false;
     })
 
     var useData;
@@ -25,7 +25,7 @@
     })
 
 
-    $('#container').on('click', '.mainMenu a', function(e){ 
+    $('#container').on('click', '.mainMenu a, .mapContent .prev a', function(e){ 
         e.preventDefault()
         var url = this.href
         var part = this.id
@@ -33,16 +33,14 @@
         $('#container').load(url + " #content", function(){ 
             var newContent = '';
             for(var i in useData[part]) { 
-                newContent += `<li><div class="photo"><a href="#"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
-                newContent += `<div class="txt"><h3><a href="#">${useData[part][i].name}</a></h3>`
+                newContent += `<li><div class="photo"><a href="${useData[part][i].url}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
+                newContent += `<div class="txt"><h3><a href="${useData[part][i].url}">${useData[part][i].name}</a></h3>`
                 newContent += `<p>${useData[part][i].depart}</p>`
                 newContent += `<p>${useData[part][i].info}</p></div></li>`
             }
             $('#content .contentBox').html('<ul>'+newContent+'</ul>')
         })
     })
-
-    
 
 
 })(jQuery)

@@ -363,3 +363,39 @@ animation: jump 2s infinite
     position: absolute;
     bottom:0; left: 0;
 }
+
+/* 메인 지도 페이지*/
+#container .mainMapContent {
+    background: #fcc232;
+    height:530px;
+}
+
+/* 서브 지도 페이지 */
+#container .kidsMapContent {
+    background: #abe54e;
+    height:530px;
+}
+#container .parkMapContent {
+    background: #c87dcc;
+    height:530px;
+}
+#container .exhibitionMapContent {
+    background: #f99f4e;
+    height:530px;
+}
+#container .studioMapContent {
+    background: #f49ac7;
+    height:530px;
+}
+#container .mapContent iframe { 
+    width:100%;
+    height:390px;
+}
+#container .mapContent .address { 
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+#container .mapContent .address span { 
+    font-size: 11px;
+}
