@@ -95,6 +95,25 @@
         })
     })
 
+    $('#container').on('click','.PersonalInfo a:nth-child(1)', function(e){ 
+        e.preventDefault()
+        $('.personal').stop().animate({
+            height:'100%'
+        },300)
+    })
+    $('#container').on('click','.PersonalInfo a:nth-child(2)', function(e){ 
+        e.preventDefault()
+        $('.terms').stop().animate({
+            height:'100%'
+        },300)
+    })
+
+    $('#container').on('click','.info_close', function(){ 
+        $('.infoClose').stop().animate({
+            height:'0%'
+        },300)
+    })
+
 
 
 })(jQuery)
