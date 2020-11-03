@@ -423,13 +423,47 @@ animation: jump 2s infinite
 }
 #container .loginContent .btn { 
     text-align:center;
+    margin-top: 10px;
 }
 #container .loginContent button { 
-    color: #555;
+    color: #fff;
     margin:0 10px;
+    position: relative;
+    border: 1px solid #fff;
+    padding: 4px 20px;
+    font-weight: bold ;
 }
 
 
+/* 회원가입 페이지*/
+#container .joinContent {
+    background: #fcc232;
+    height:530px;
+}
+#container .joinContent form { 
+    width:75%;
+    margin: 30px auto 0;
+}
+#container .joinContent input{ 
+    width:100%;
+    height:40px;
+    border:1px solid #ddd;
+    background:#fff;
+    margin-bottom: 15px;
+    text-indent:5px;
+}
+#container .joinContent .btn { 
+    text-align:center;
+    margin-top: 10px;
+}
+#container .joinContent button { 
+    color: #fff;
+    margin:0 10px;
+    position: relative;
+    border: 1px solid #fff;
+    padding: 4px 20px;
+    font-weight: bold ;
+}
 
 
 /* 서브 지도 페이지 */

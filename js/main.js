@@ -1,6 +1,6 @@
 (function($){ 
 
-    $('body').on('click', '#header h1 a ,#footer .home a, #footer .map a, #footer .login a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a', function(e){ 
+    $('body').on('click', '#header h1 a ,#footer .home a, #footer .map a, #footer .login a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a, .loginContent button a, #header .inBtn a', function(e){ 
         e.preventDefault()
         var url = this.href
         $('#container > #content').remove()
@@ -33,16 +33,16 @@
         $('#container').load(url + " #content", function(){ 
             var newContent = '';
             for(var i in useData[part]) { 
-                newContent += `<li><div class="photo"><a href="${useData[part][i].url}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
-                newContent += `<div class="txt"><h3><a href="${useData[part][i].url}">${useData[part][i].name}</a></h3>`
-                newContent += `<a href="${useData[part][i].url}"><p>${useData[part][i].depart}</p></a>`
-                newContent += `<a href="${useData[part][i].url}"><p>${useData[part][i].info}</p></a></div></li>`
+                newContent += `<li><div class="photo"><a href="${useData[part][i].url}" id="${useData[part][i].map}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
+                newContent += `<div class="txt"><h3><a href="${useData[part][i].url}" id="${useData[part][i].map}">${useData[part][i].name}</a></h3>`
+                newContent += `<a href="${useData[part][i].url}" id="${useData[part][i].map}"><p>${useData[part][i].depart}</p></a>`
+                newContent += `<a href="${useData[part][i].url}" id="${useData[part][i].map}"><p>${useData[part][i].info}</p></a></div></li>`
             }
             $('#content .contentBox').html('<ul>'+newContent+'</ul>')
         })
     })
 
-    $('#header .lnb a').on('click', function(e){ 
+    $('#header .menuBtn a').on('click', function(e){ 
         e.preventDefault()
         var url = this.href
         var part = this.id
@@ -56,6 +56,21 @@
                 newContent += `<p>${useData[part][i].info}</p></div></li>`
             }
             $('#content .contentBox').html('<ul>'+newContent+'</ul>')
+        })
+    })
+
+    $('body').on('click', '.contentBox .photo a, .contentBox .txt a', function(e){ 
+        e.preventDefault()
+        var url = this.href
+        var part = this.id
+        var index = $(this).parents('li').index()
+        $('#container > #content').remove()
+        $('#container').load(url + " #content", function(){ 
+            var newContent = '';
+            newContent += `<iframe src="${useData[part][index].map}" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="address"><i class="fas fa-map-marker-alt"></i>`
+            newContent += `<span>${useData[part][index].address}</span></div>`
+            $('#content .contentBox').html(newContent)
         })
     })
 

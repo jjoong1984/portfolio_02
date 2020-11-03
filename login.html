@@ -7,16 +7,16 @@
                 </div>
                 <h2>로그인</h2>
             </div>
-            <form action="post">
+            <form name="login_form" method="post" action="login.php">
                 <fieldset>
                     <legend>로그인</legend>
                         <input type="text" name="id" id="id" placeholder="아이디 입력" required>
-                        <input type="password" name="pw" id="pw" placeholder="비밀번호 입력" required>
-                        <div class="btn">
-                            <button>로그인</button>
-                            <button>회원가입</button>
-                        </div>
+                        <input type="password" name="pass" id="pass" placeholder="비밀번호 입력" required>
                 </fieldset>
+                <div class="btn">
+                    <button type="button">로그인</button>
+                    <button type="button"><a href="join.html">회원가입</a></button>
+                </div>
             </form>
         </div>
 </section>
