@@ -19,6 +19,16 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
+
+    <?php
+        session_start();
+        if ( isset($_SESSION['userid']) ) { 
+            $userid = $_SESSION['userid'];
+            $username = $_SESSION['name']; 
+        } else { $userid = ''; }
+        
+    ?>
+
     <header id="header">
         <h1 class="logo">
             <a href="index.php"><img src="images/logo.png" alt="로고"></a>
@@ -30,20 +40,27 @@
         <div class="wrap">
             <div class="lnb">
                 <ul>
-                    
-                        <li class="inBtn"><a href="login_form.php">
+                    <?php if( !$userid ) { ?>
+                        <li><a href="login_form.php">
                             <i class="fas fa-sign-in-alt"></i>
                             <span>로그인</span></a></li>
                         <li class="inBtn"><a href="join.html">
                             <i class="fas fa-user-alt"></i>
                             <span>회원가입</span></a></li> 
-
+                    <?php } else { ?>
+                        <li>
+                            <span>
+                                <?php echo $username ?>님 환영합니다.
+                            </span>
+                        </li>                        
                         <li><a href="logout.php">
                             <i class="fas fa-sign-out-alt"></i>
                             <span>로그아웃</span></a></li>
                         <li><a href="#none">
                             <i class="fas fa-user-alt"></i>
-                            <span>정보수정<span><a><li>                                                        
+                            <span>정보수정<span><a><li>                          
+                    <?php } ?>    
+
                     <li class="menuBtn"><a href="kidsCafe.html" id="kidsCafe">
                         <i class="fas fa-futbol"></i>
                         <span>키즈카페</span></a></li>
