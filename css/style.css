@@ -292,7 +292,7 @@ animation: jump 2s infinite
 /* 키즈카페 */
 #container .kidsCafeContent {
     background: #abe54e;
-    height:690px;
+    height:1300px;
 }
 #container #content .mainTit { position: relative;}
 #container #content .mainTit .prev i { 
@@ -353,7 +353,7 @@ animation: jump 2s infinite
 /* 공원 */
 #container .parkContent {
     background: #c87dcc;
-    height:690px;
+    height:1300px;
 }
 #container .parkContent .photo img { 
     height:120px;
@@ -376,10 +376,10 @@ animation: jump 2s infinite
     bottom:0; left: 0;
 }
 
-/* 공원 */
+/* 전시관 */
 #container .exhibitionContent {
     background: #f99f4e;
-    height:690px;
+    height:1300px;
 }
 #container .exhibitionContent .photo img { 
     height:120px;
@@ -405,7 +405,7 @@ animation: jump 2s infinite
 /* 사진관 */
 #container .studioContent {
     background: #f49ac7;
-    height:690px;
+    height:1300px;
 }
 #container .studioContent .photo img { 
     height:120px;
@@ -482,11 +482,25 @@ animation: jump 2s infinite
     margin-bottom: 15px;
     text-indent:5px;
 }
+#container .joinContent #id{ 
+    margin-bottom: 15px;
+    width: 70.5%;
+    vertical-align: middle;
+}
+#container .joinContent .id_check { 
+    color: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    padding: 9px 2px;
+    vertical-align: middle;
+    width: 27%;
+    font-weight: bold ;
+}
 #container .joinContent .btn { 
     text-align:center;
     margin-top: 10px;
 }
-#container .joinContent button { 
+#container .joinContent .btn button { 
     color: #fff;
     margin:0 10px;
     position: relative;

@@ -1,6 +1,6 @@
 (function($){ 
 
-    $('body').on('click', '#header h1 a ,#footer .home a, #footer .map a, #footer .login a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a, .loginContent button a, #header .inBtn a', function(e){ 
+    $('body').on('click', '#header h1 a, #footer .home a, #footer .map a, .mainTit .prev a, .contentBox .photo a, .contentBox .txt a, .loginContent button a, #header .inBtn a', function(e){ 
         e.preventDefault()
         var url = this.href
         $('#container > #content').remove()
@@ -114,6 +114,59 @@
         },300)
     })
 
-
-
 })(jQuery)
+
+// 회원가입 유효성 검사
+function join_check() { 
+    if( !document.join_form.id.value ) { 
+        alert('아이디를 입력하세요.')
+        document.join_form.id.focus()
+        return false
+    }
+    if( !document.join_form.pass.value ) { 
+        alert('비밀번호를 입력하세요.')
+        document.join_form.pass.focus()
+        return false
+    }
+    if( !document.join_form.passok.value ) { 
+        alert('비밀번호를 확인하세요.')
+        document.join_form.passok.focus()
+        return false
+    }
+    if( !document.join_form.name.value ) { 
+        alert('이름을 입력하세요.')
+        document.join_form.name.focus()
+        return false
+    }
+    if( !document.join_form.tel.value ) { 
+        alert('전화번호를 입력하세요.')
+        document.join_form.tel.focus()
+        return false
+    }
+    if ( document.join_form.pass.value !== document.join_form.passok.value) { 
+        alert('비밀번호가 일치하지 않습니다.')
+        document.join_form.pass.focus()
+        return false
+    }
+    document.join_form.submit()
+
+}
+
+function id_check() { 
+    window.open('id_check.php?id='+document.join_form.id.value, '', "width=350, height=200, left=1200, top=100, scrollbars=no, resizable=yes")
+}
+
+function login_check() { 
+
+    if( !document.login_form.id.value ) { 
+        alert('아이디를 입력하세요.')
+        document.login_form.id.focus()
+        return false
+    }
+    if( !document.login_form.pass.value ) { 
+        alert('비밀번호를 입력하세요.')
+        document.login_form.pass.focus()
+        return false
+    }
+    document.login_form.submit()
+}

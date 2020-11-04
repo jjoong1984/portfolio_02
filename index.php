@@ -19,6 +19,16 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
+
+    <?php
+        session_start();
+        if ( isset($_SESSION['userid']) ) { 
+            $userid = $_SESSION['userid'];
+            $username = $_SESSION['name']; 
+        } else { $userid = ''; }
+        
+    ?>
+
     <header id="header">
         <h1 class="logo">
             <a href="index.php"><img src="images/logo.png" alt="로고"></a>
@@ -30,20 +40,27 @@
         <div class="wrap">
             <div class="lnb">
                 <ul>
-                    
+                    <?php if( !$userid ) { ?>
                         <li><a href="login_form.php">
                             <i class="fas fa-sign-in-alt"></i>
                             <span>로그인</span></a></li>
                         <li class="inBtn"><a href="join.html">
                             <i class="fas fa-user-alt"></i>
                             <span>회원가입</span></a></li> 
-
+                    <?php } else { ?>
+                        <li>
+                            <span>
+                                <?php echo $username ?>님 환영합니다.
+                            </span>
+                        </li>                        
                         <li><a href="logout.php">
                             <i class="fas fa-sign-out-alt"></i>
                             <span>로그아웃</span></a></li>
                         <li><a href="#none">
                             <i class="fas fa-user-alt"></i>
-                            <span>정보수정<span><a><li>                                                        
+                            <span>정보수정<span><a><li>                          
+                    <?php } ?>    
+
                     <li class="menuBtn"><a href="kidsCafe.html" id="kidsCafe">
                         <i class="fas fa-futbol"></i>
                         <span>키즈카페</span></a></li>
@@ -744,7 +761,7 @@
                     제 30조 (지급방법)
                     1. 유료서비스의 이용에 대한 대금지급방법은 다음 각 호의 방법 중 가능한 방법으로 할 수 있습니다. 다만, 회사는 회원의 지급방법에 대하여 어떠한 명목의 수수료도 추가하여 징수하지 않습니다.
                     
-                    1) 회원1이 가입한 회사의 서비스 통합과금
+                    1) 회원이 가입한 회사의 서비스 통합과금
                     2) 폰뱅킹, 인터넷 뱅킹, 메일 뱅킹 등의 각종 계좌이체
                     3) 선불카드, 직불카드, 신용카드 등의 각종 카드결제
                     4) 온라인 무통장입금
