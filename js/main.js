@@ -50,10 +50,10 @@
         $('#container').load(url + " #content", function(){ 
             var newContent = '';
             for(var i in useData[part]) { 
-                newContent += `<li><div class="photo"><a href="${useData[part][i].url}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
-                newContent += `<div class="txt"><h3><a href="${useData[part][i].url}">${useData[part][i].name}</a></h3>`
-                newContent += `<p>${useData[part][i].depart}</p>`
-                newContent += `<p>${useData[part][i].info}</p></div></li>`
+                newContent += `<li><div class="photo"><a href="${useData[part][i].url}" id="${useData[part][i].map}"><img src="${useData[part][i].photo}" alt="카페사진"></a></div>`
+                newContent += `<div class="txt"><h3><a href="${useData[part][i].url}" id="${useData[part][i].map}">${useData[part][i].name}</a></h3>`
+                newContent += `<a href="${useData[part][i].url}" id="${useData[part][i].map}"><p>${useData[part][i].depart}</p></a>`
+                newContent += `<a href="${useData[part][i].url}" id="${useData[part][i].map}"><p>${useData[part][i].info}</p></a></div></li>`
             }
             $('#content .contentBox').html('<ul>'+newContent+'</ul>')
         })

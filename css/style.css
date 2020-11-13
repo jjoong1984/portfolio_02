@@ -292,7 +292,7 @@ animation: jump 2s infinite
 /* 키즈카페 */
 #container .kidsCafeContent {
     background: #abe54e;
-    height:1300px;
+    height:700px;
 }
 #container #content .mainTit { position: relative;}
 #container #content .mainTit .prev i { 
@@ -353,7 +353,7 @@ animation: jump 2s infinite
 /* 공원 */
 #container .parkContent {
     background: #c87dcc;
-    height:1300px;
+    height:700px;
 }
 #container .parkContent .photo img { 
     height:120px;
@@ -379,7 +379,7 @@ animation: jump 2s infinite
 /* 전시관 */
 #container .exhibitionContent {
     background: #f99f4e;
-    height:1300px;
+    height:700px;
 }
 #container .exhibitionContent .photo img { 
     height:120px;
@@ -405,7 +405,7 @@ animation: jump 2s infinite
 /* 사진관 */
 #container .studioContent {
     background: #f49ac7;
-    height:1300px;
+    height:700px;
 }
 #container .studioContent .photo img { 
     height:120px;

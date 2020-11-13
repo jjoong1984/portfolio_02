@@ -32,75 +32,10 @@
             "photo":"images/kids4.png",
             "url" : "kidsMap.html",
             "map" : "kidsMap"
-        },
-        {
-            "name":"벨르비쥬 키즈카페",
-            "depart":"키즈카페, 실내놀이터",
-            "info":"블로그리뷰 36",
-            "photo":"images/kids1.png",
-            "url" : "kidsMap.html",
-            "map" : "kidsMap"
-        },
-        {
-            "name":"나무와아이 의정부점",
-            "depart":"키즈카페, 실내놀이터",
-            "info":"블로그리뷰 15",
-            "photo":"images/kids2.png",
-            "url" : "kidsMap.html",
-            "map" : "kidsMap"
-            
-        },
-        {
-            "name":"리틀란드 신세계백화점",
-            "depart":"키즈카페, 실내놀이터",
-            "info":"블로그리뷰 4",
-            "photo":"images/kids3.png",
-            "url" : "kidsMap.html",
-            "map" : "kidsMap"
-        },
-        {
-            "name":"루나루즈 키즈카페",
-            "depart":"키즈카페, 실내놀이터",
-            "info":"블로그리뷰 76",
-            "photo":"images/kids4.png",
-            "url" : "kidsMap.html",
-            "map" : "kidsMap"
         }
     ],
     
     "park" : [
-        { 
-            "name":"직동근린공원",
-            "depart":"근린공원",
-            "info":"경기 의정부시 호국로1162번길 73",
-            "photo":"images/park1.png",
-            "url" : "parkMap.html",
-            "map" : "parkMap"
-        },
-        { 
-            "name":"무한상상시민정원",
-            "depart":"자연공원",
-            "info":"경기 의정부시 시민로 100",
-            "photo":"images/park2.png",
-            "url" : "parkMap.html",
-            "map" : "parkMap"
-        },
-        { 
-            "name":"낙양사랑공원",
-            "depart":"근린공원",
-            "info":"경기 의정부 낙양동697",
-            "photo":"images/park3.png",
-            "url" : "parkMap.html",
-            "map" : "parkMap"
-        },
-        { 
-            "name":"오목문화공원",
-            "depart":"근린공원",
-            "info":"경기 의정부시 민락동",
-            "photo":"images/park4.png",
-            "url" : "parkMap.html",
-            "map" : "parkMap"
-        },
         { 
             "name":"직동근린공원",
             "depart":"근린공원",
@@ -167,74 +102,11 @@
             "photo":"images/exhibition4.png",
             "url" : "exhibitionMap.html",
             "map" : "exhibitionMap"
-        },
-        { 
-            "name":"의정부예술의전당",
-            "depart":"공연장",
-            "info":"경기 의정부시 의정로1 의정부예술의전당",
-            "photo":"images/exhibition1.png",
-            "url" : "exhibitionMap.html",
-            "map" : "exhibitionMap"
-        },
-        { 
-            "name":"의정부 우리소극장",
-            "depart":"공연장",
-            "info":"경기 의정부시 용민로 483",
-            "photo":"images/exhibition2.png",
-            "url" : "exhibitionMap.html",
-            "map" : "exhibitionMap"
-        },
-        { 
-            "name":"스카이공연홀",
-            "depart":"공연장",
-            "info":"경기 의정부시 호국로 1320",
-            "photo":"images/exhibition3.png",
-            "url" : "exhibitionMap.html",
-            "map" : "exhibitionMap"
-        },
-        { 
-            "name":"휴앤무",
-            "depart":"공연장",
-            "info":"경기 의정부시 용민로26번길 42",
-            "photo":"images/exhibition4.png",
-            "url" : "exhibitionMap.html",
-            "map" : "exhibitionMap"
         }
     ],
 
     "studio" : [
         { 
-            "name":"아리아스튜디오",
-            "depart":"아기사진전문",
-            "info":"평일 10:00~18:00",
-            "photo":"images/studio1.png",
-            "url" : "studioMap.html",
-            "map" : "studioMap"
-        },
-        { 
-            "name":"하늘곰스튜디오",
-            "depart":"아기사진전문",
-            "info":"평일 10:00~18:00 ",
-            "photo":"images/studio2.png",
-            "url" : "studioMap.html",
-            "map" : "studioMap"
-        },
-        { 
-            "name":"딸기쨈스튜디오",
-            "depart":"아기사진전문",
-            "info":"매일 10:00~18:30",
-            "photo":"images/studio3.png",
-            "url" : "studioMap.html",
-            "map" : "studioMap"
-        },
-        { 
-            "name":"베일리수 의정부점",
-            "depart":"아기사진전문",
-            "info":"매일 09:30~19:00",
-            "photo":"images/studio4.png",
-            "url" : "studioMap.html",
-            "map" : "studioMap"
-        },{ 
             "name":"아리아스튜디오",
             "depart":"아기사진전문",
             "info":"평일 10:00~18:00",
@@ -284,23 +156,7 @@
         { 
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50474.31925215478!2d127.03481867910156!3d37.751472899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc6e4f94fcf43%3A0x86965df04df53cb5!2z7YKk7KaI7Lm07Y6Y!5e0!3m2!1sko!2skr!4v1604022792805!5m2!1sko!2skr",
             "address":"금오동 473-3번지 신세계프라자 406호 의정부시 경기도 KR"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.883736671577!2d127.05380310000001!3d37.745871699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc72429548a23%3A0x3d7a56cdb9d7dd20!2z67Ko66W067mE7KWs!5e0!3m2!1sko!2skr!4v1603963166951!5m2!1sko!2skr",
-            "address":"경기 의정부시 호국로1351번길 14 3층 벨르비쥬 키즈카페"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.2221732402672!2d127.04406929999999!3d37.7379317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc735b108be1f%3A0x478c58cd09951d3c!2z64KY66y07JmA7JWE7J20!5e0!3m2!1sko!2skr!4v1604022630708!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부2동 494"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.216462093024!2d127.04594360000004!3d37.738065700000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc73f7b623c5f%3A0x846d76feed0ccc74!2z7Iug7IS46rOE67Cx7ZmU7KCQIOydmOygleu2gOygkA!5e0!3m2!1sko!2skr!4v1604022733689!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부동 시민로"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50474.31925215478!2d127.03481867910156!3d37.751472899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc6e4f94fcf43%3A0x86965df04df53cb5!2z7YKk7KaI7Lm07Y6Y!5e0!3m2!1sko!2skr!4v1604022792805!5m2!1sko!2skr",
-            "address":"금오동 473-3번지 신세계프라자 406호 의정부시 경기도 KR"
-        }  
+        } 
     ],
 
     "parkMap" : [
@@ -319,23 +175,7 @@
         { 
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.2020094037653!2d127.0953698!3d37.7384048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc64da4a9891b%3A0x52f7e7b1490b7143!2z7Jik66qp66y47ZmU6re866aw6rO17JuQ!5e0!3m2!1sko!2skr!4v1604023651919!5m2!1sko!2skr",
             "address":"경기도 의정부시 민락동"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.1760147429!2d127.0320427!3d37.7390147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc0b64ad93819%3A0x28f980998de11801!2z7KeB64-Z6re866aw6rO17JuQ!5e0!3m2!1sko!2skr!4v1604023468956!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부동"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.2316605258225!2d127.04682600000001!3d37.7377091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc74f81b95ce5%3A0x433d6da69667eaa1!2z66y07ZWc7IOB7IOB7Iuc66-87KCV7JuQ!5e0!3m2!1sko!2skr!4v1604023530997!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부3동"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.8389468296155!2d127.0919657!3d37.746922399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc65a93ed6f35%3A0x5363063d7cd80b3!2z64KZ7JaR66y87IKs656R6rO17JuQ!5e0!3m2!1sko!2skr!4v1604023614460!5m2!1sko!2skr",
-            "address":"경기도 의정부시 낙양동 668-1"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.2020094037653!2d127.0953698!3d37.7384048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc64da4a9891b%3A0x52f7e7b1490b7143!2z7Jik66qp66y47ZmU6re866aw6rO17JuQ!5e0!3m2!1sko!2skr!4v1604023651919!5m2!1sko!2skr",
-            "address":"경기도 의정부시 민락동"
-        }  
+        } 
     ],
 
     "exhibitionMap" : [
@@ -354,23 +194,7 @@
         { 
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.1663439047297!2d127.04482449999998!3d37.73924160000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc73419b68757%3A0x6eb7caaec3e32d00!2z7Zy07JWk7JWE7J20!5e0!3m2!1sko!2skr!4v1604024161732!5m2!1sko!2skr",
             "address":"경기도 의정부시 의정부2동"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.4181488977074!2d127.0341667!3d37.733333300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc0b165aafebb%3A0xd22bcb8161d85d06!2z7J2Y7KCV67aA7JiI7Iig7J2Y7KCE64u5!5e0!3m2!1sko!2skr!4v1604023956070!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부2동 323"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.673854255408!2d127.11807820000001!3d37.750795000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc61bd20afe65%3A0xf62595017812264a!2z7J2Y7KCV67aAIOyasOumrOyGjOq3ueyepQ!5e0!3m2!1sko!2skr!4v1604024038565!5m2!1sko!2skr",
-            "address":"경기도 의정부시 민락동 902-4"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.986019955098!2d127.0508802!3d37.7434722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc72558ccf765%3A0x61ecc7ee0d9841bb!2z7J2Y7KCV67aAU0tZ6rO17Jew7J6l!5e0!3m2!1sko!2skr!4v1604024082677!5m2!1sko!2skr",
-            "address":"의정부동 185-2번지 의정부시 경기도 KR"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.1663439047297!2d127.04482449999998!3d37.73924160000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc73419b68757%3A0x6eb7caaec3e32d00!2z7Zy07JWk7JWE7J20!5e0!3m2!1sko!2skr!4v1604024161732!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부2동"
-        }  
+        } 
     ],
 
     "studioMap" : [
@@ -389,22 +213,6 @@
         { 
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5352828389314!2d127.05896629999998!3d37.7071116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb8a22c8939db%3A0xcc11f2040c7e5832!2z67Kg7J2866as7IiY7Iqk7Yqc65SU7Jik!5e0!3m2!1sko!2skr!4v1604024607109!5m2!1sko!2skr",
             "address":"경기도 의정부시 장암동 99-19"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25238.888603636904!2d127.04762430000001!3d37.74640329999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc72efbd8294f%3A0x528a4822040a85b0!2z7JWE66as7JWE7Iqk7Yqc65SU7Jik!5e0!3m2!1sko!2skr!4v1604024322892!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부1동"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100966.03563551663!2d126.97235175820312!3d37.73871909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc73501889a75%3A0x6bbe9d5520c1742!2z67Kg7J2067mE7Iqk7Yqc65SU7Jik!5e0!3m2!1sko!2skr!4v1604024544300!5m2!1sko!2skr",
-            "address":"경기도 의정부시 의정부2동 431-11"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.858522000987!2d127.11751450000001!3d37.74646320000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc618635b7779%3A0x6189965f9c40a6d2!2z65S46riw7KiI7Iqk7Yqc65SU7Jik!5e0!3m2!1sko!2skr!4v1604024576061!5m2!1sko!2skr",
-            "address":"경기도 의정부시 민락동 81-2"
-        },
-        { 
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5352828389314!2d127.05896629999998!3d37.7071116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb8a22c8939db%3A0xcc11f2040c7e5832!2z67Kg7J2866as7IiY7Iqk7Yqc65SU7Jik!5e0!3m2!1sko!2skr!4v1604024607109!5m2!1sko!2skr",
-            "address":"경기도 의정부시 장암동 99-19"
-        }  
+        } 
     ]
 }
