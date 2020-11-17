@@ -14,7 +14,7 @@ button, input[type=submit], input[type=reset] {
     cursor:pointer;
 }  
 
-body {  background:#fff; }
+body {  background:#eee;}
 
 .onlyMobile { 
     position: absolute;
@@ -104,11 +104,12 @@ body {  background:#fff; }
 }
 
 /* 메인컨텐트 */
+
 #container { margin-top:70px;
     margin-bottom: 40px;
 }
 #container .mainContent { 
-    height:530px;
+    height:700px;
     background: #fcc232
 }
 #container .mainContent .mainTit { 
@@ -199,6 +200,42 @@ animation: jump 2s infinite
 #container .mainMenu .mainBox2 .studio { 
     margin-left: 5px;
 }
+
+#container .touch { 
+    width:100%; overflow:hidden; margin: 20px auto;
+    background: #fdae47;
+    padding: 10px 0;
+}
+#container .touch h2{ 
+    font-size: 22px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: normal;
+    color:#fff;
+    text-align:center;
+    margin-bottom: 10px;
+}
+#container .touch .touch_box{ 
+    width:400%;
+    overflow:hidden;
+}
+
+#container .touch .touch_box ul{
+    float:left; width:25%;
+    overflow:hidden;
+}
+#container .touch .touch_box ul li{
+    float: left; width:23% ;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 1%;
+}
+#container .touch .touch_box ul li img { 
+    width:100%;
+    transition:all 0.5s
+}
+
+
 #container .mainContent .PersonalInfo { 
     text-align: center;
     margin-top: 10px;
@@ -310,10 +347,10 @@ animation: jump 2s infinite
     padding:10px 0;
     font-weight: normal;
 }
-#container #content ul { 
+#container #content .contentBox ul { 
     padding: 0 10px;
 }
-#container #content li { 
+#container #content .contentBox li { 
     display:grid;
     grid-template-columns: 140px auto;
     background:#fff;

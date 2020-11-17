@@ -118,6 +118,36 @@
                 </div>
             </div>
 
+            <div class="touch">
+                        <h2>오늘의 추천 Play</h2>
+                        <div class="touch_box">
+                            <ul>
+                                <li><img src="images/kids1.png" alt="카페사진1"></li>
+                                <li><img src="images/kids2.png" alt="카페사진2"></li>
+                                <li><img src="images/kids3.png" alt="카페사진3"></li>
+                                <li><img src="images/kids4.png" alt="카페사진4"></li>
+                            </ul>
+                            <ul>
+                                <li><img src="images/park1.png" alt="공원사진1"></li>
+                                <li><img src="images/park2.png" alt="공원사진2"></li>
+                                <li><img src="images/park3.png" alt="공원사진3"></li>
+                                <li><img src="images/park4.png" alt="공원사진4"></li>
+                            </ul>
+                            <ul>
+                                <li><img src="images/exhibition1.png" alt="전시장사진1"></li>
+                                <li><img src="images/exhibition2.png" alt="전시장사진2"></li>
+                                <li><img src="images/exhibition3.png" alt="전시장사진3"></li>
+                                <li><img src="images/exhibition4.png" alt="전시장사진4"></li>
+                            </ul>
+                            <ul>
+                                <li><img src="images/studio1.png" alt="사진관사진1"></li>
+                                <li><img src="images/studio2.png" alt="사진관사진2"></li>
+                                <li><img src="images/studio3.png" alt="사진관사진3"></li>
+                                <li><img src="images/studio4.png" alt="사진관사진4"></li>
+                            </ul>
+                        </div>
+                    </div>
+
             <div class="PersonalInfo">
                 <a href="#">개인정보처리방침</a>
                 <a href="#">이용약관</a>

@@ -114,7 +114,27 @@
         },300)
     })
 
+    // 터치무브 이벤트
+    $('#container').on('touchstart', '.touch_box > ul', function(){ 
+        $(this).find('img').css({
+            transform:'scale(1.1)'
+        })
+    }).on('touchmove', '.touch_box > ul', function(){ 
+        $(this).stop().animate({ 
+            marginLeft : '-25%'
+        },500, function(){ 
+            $(this).appendTo('.touch_box').css({
+                marginLeft : '0%'
+            })
+        })
+    }).on('touchend', '.touch_box > ul', function(){ 
+        $(this).find('img').css({
+            transform:'scale(1)'
+        })
+    })
+
 })(jQuery)
+
 
 // 회원가입 유효성 검사
 function join_check() { 
