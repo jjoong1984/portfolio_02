@@ -109,7 +109,7 @@ body {  background:#eee;}
     margin-bottom: 40px;
 }
 #container .mainContent { 
-    height:700px;
+    height:730px;
     background: #fcc232
 }
 #container .mainContent .mainTit { 
@@ -203,14 +203,14 @@ animation: jump 2s infinite
 
 #container .touch { 
     width:100%; overflow:hidden; margin: 20px auto;
-    background: #fdae47;
+    background: #fdecbb;
     padding: 10px 0;
 }
 #container .touch h2{ 
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Nanum Pen Script', cursive;
     font-weight: normal;
-    color:#fff;
+    color:#333;
     text-align:center;
     margin-bottom: 10px;
 }
@@ -232,9 +232,13 @@ animation: jump 2s infinite
     width:100%;
     transition:all 0.5s;
     border-radius: 50%;
+    border:3px solid #fff
 }
 #container .touch .touch_box ul li p { 
-    color:#fff; font-size: 12px; text-align: center;margin-top: 5px;
+    color:#777; font-size: 10px; text-align: center;margin-top: 5px;
+}
+#container .touch .touch_box ul li p span {  font-size: 13px; font-weight:bold;
+    color:#333;
 }
 
 

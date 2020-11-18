@@ -25,7 +25,7 @@
     })
 
 
-    $('#container').on('click', '.mainMenu a, .mapContent .prev a', function(e){ 
+    $('#container').on('click', '.mainMenu a, .mapContent .prev a, .touch a', function(e){ 
         e.preventDefault()
         var url = this.href
         var part = this.id
