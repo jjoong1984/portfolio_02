@@ -115,11 +115,13 @@
     })
 
     // 터치무브 이벤트
-    $('#container').on('touchstart', '.touch_box > ul', function(){ 
+    $('#container').on('touchstart', '.touch_box > ul', function(e){ 
+        e.preventDefault()
         $(this).find('img').css({
             transform:'scale(1.1)'
         })
-    }).on('touchmove', '.touch_box > ul', function(){ 
+    }).on('touchmove', '.touch_box > ul', function(e){ 
+        e.preventDefault()
         $(this).stop().animate({ 
             marginLeft : '-25%'
         },500, function(){ 
@@ -127,7 +129,8 @@
                 marginLeft : '0%'
             })
         })
-    }).on('touchend', '.touch_box > ul', function(){ 
+    }).on('touchend', '.touch_box > ul', function(e){ 
+        e.preventDefault()
         $(this).find('img').css({
             transform:'scale(1)'
         })
