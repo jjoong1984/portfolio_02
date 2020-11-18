@@ -118,7 +118,7 @@
     $('#container').on('touchstart', '.touch_box > ul', function(e){ 
         e.preventDefault()
         $(this).find('img').css({
-            transform:'scale(1.1)'
+            transform:'scale(1.03)'
         })
     }).on('touchmove', '.touch_box > ul', function(e){ 
         e.preventDefault()

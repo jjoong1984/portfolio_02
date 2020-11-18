@@ -225,8 +225,6 @@ animation: jump 2s infinite
 }
 #container .touch .touch_box ul li{
     float: left; width:23% ;
-    border: 3px solid #fff;
-    border-radius: 50%;
     overflow: hidden;
     margin: 0 1%;
 }
@@ -234,6 +232,9 @@ animation: jump 2s infinite
     width:100%;
     transition:all 0.5s;
     border-radius: 50%;
+}
+#container .touch .touch_box ul li p { 
+    color:#fff; font-size: 12px; text-align: center;margin-top: 5px;
 }
 
 
