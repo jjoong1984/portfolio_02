@@ -232,7 +232,8 @@ animation: jump 2s infinite
 }
 #container .touch .touch_box ul li img { 
     width:100%;
-    transition:all 0.5s
+    transition:all 0.5s;
+    border-radius: 50%;
 }
 
 
