@@ -556,23 +556,23 @@ animation: jump 2s infinite
 /* 서브 지도 페이지 */
 #container .kidsMapContent {
     background: #abe54e;
-    height:880px;
+    height:800px;
 }
 #container .parkMapContent {
     background: #c87dcc;
-    height:530px;
+    height:800px;
 }
 #container .exhibitionMapContent {
     background: #f99f4e;
-    height:530px;
+    height:800px;
 }
 #container .studioMapContent {
     background: #f49ac7;
-    height:530px;
+    height:800px;
 }
 #container .mapContent iframe { 
     width:100%;
-    height:390px;
+    height:320px;
 }
 #container .mapContent .address { 
     margin-top: 10px;
@@ -593,7 +593,7 @@ animation: jump 2s infinite
 }
 #container .mapContent img { 
     margin-top: 5px; 
-    border:2px solid #fff;
+    border:4px solid #fff;
     border-radius: 15px;
     width:49%;
 }

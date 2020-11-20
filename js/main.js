@@ -25,7 +25,7 @@
     })
 
 
-    $('#container').on('click', '.mainMenu a, .mapContent .prev a, .touch a', function(e){ 
+    $('#container').on('click', '.mainMenu a, .mapContent .prev a', function(e){ 
         e.preventDefault()
         var url = this.href
         var part = this.id
@@ -59,7 +59,7 @@
         })
     })
 
-    $('body').on('click', '.contentBox .photo a, .contentBox .txt a', function(e){ 
+    $('body').on('click', '.contentBox .photo a, .contentBox .txt a, .touch a', function(e){ 
         e.preventDefault()
         var url = this.href
         var part = this.id
@@ -129,7 +129,7 @@
                 marginLeft : '0%'
             })
         })
-    })
+    });
 
 })(jQuery)
 
