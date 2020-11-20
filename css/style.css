@@ -14,10 +14,10 @@ button, input[type=submit], input[type=reset] {
     cursor:pointer;
 }  
 
-body {  background:#eee;}
+body {  background:#fff;}
 
 .onlyMobile { 
-    position: absolute;
+    position: fixed;
     top:0; bottom:0; left:0; right:0;
     background:#333;
     z-index: 9999999;
@@ -556,7 +556,7 @@ animation: jump 2s infinite
 /* 서브 지도 페이지 */
 #container .kidsMapContent {
     background: #abe54e;
-    height:530px;
+    height:880px;
 }
 #container .parkMapContent {
     background: #c87dcc;
@@ -581,4 +581,19 @@ animation: jump 2s infinite
 }
 #container .mapContent .address span { 
     font-size: 11px;
+}
+#container .mapContent .mapImage { 
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 5px;
+
+}
+#container .mapContent img { 
+    margin-top: 5px; 
+    border:2px solid #fff;
+    border-radius: 15px;
+    width:49%;
 }

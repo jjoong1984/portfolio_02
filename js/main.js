@@ -70,6 +70,11 @@
             newContent += `<iframe src="${useData[part][index].map}" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="address"><i class="fas fa-map-marker-alt"></i>`
             newContent += `<span>${useData[part][index].address}</span></div>`
+            newContent += `<div class="mapImage"><img src="${useData[part][index].img}" alt="${useData[part][index].imgName}">`
+            newContent += `<img src="${useData[part][index].img2}" alt="${useData[part][index].imgName}">`
+            newContent += `<img src="${useData[part][index].img3}" alt="${useData[part][index].imgName}">`
+            newContent += `<img src="${useData[part][index].img4}" alt="${useData[part][index].imgName}"></div>`
+            
             $('#content .contentBox').html(newContent)
         })
     })
@@ -115,12 +120,7 @@
     })
 
     // 터치무브 이벤트
-    $('#container').on('touchstart', '.touch_box > ul', function(e){ 
-        e.preventDefault()
-        $(this).find('img').css({
-            transform:'scale(1.03)'
-        })
-    }).on('touchmove', '.touch_box > ul', function(e){ 
+    $('#container').on('touchmove', '.touch_box ul', function(e){ 
         e.preventDefault()
         $(this).stop().animate({ 
             marginLeft : '-25%'
@@ -128,11 +128,6 @@
             $(this).appendTo('.touch_box').css({
                 marginLeft : '0%'
             })
-        })
-    }).on('touchend', '.touch_box > ul', function(e){ 
-        e.preventDefault()
-        $(this).find('img').css({
-            transform:'scale(1)'
         })
     })
 
