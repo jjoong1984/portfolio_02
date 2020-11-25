@@ -129,7 +129,7 @@
                 marginLeft : '0%'
             })
         })
-    });
+    })
 
 })(jQuery)
 
