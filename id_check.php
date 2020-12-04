@@ -20,7 +20,7 @@
         echo ("<p>아이디를 입력해 주세요.");
     } else { 
         $con = mysqli_connect('localhost', 'jjoong1984', 'wjdwnd22!', 'jjoong1984');
-        $sql = "select * from playmember where id='$id'";
+        $sql = "select * from asanmember where id='$id'";
         $result = mysqli_query($con, $sql);
 
         $num_record = mysqli_num_rows($result);
