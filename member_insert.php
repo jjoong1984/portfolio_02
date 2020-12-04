@@ -18,7 +18,7 @@ $name = $_POST['name'];
 $tel = $_POST['tel'];
 $regist_dat = date('Y-m-d');
 
-$con = mysqli_connect('localhost', 'user1', '12345', 'sample');
+$con = mysqli_connect('localhost', 'jjoong1984', 'wjdwnd22!', 'jjoong1984');
 $sql = "insert into playmember (id, pass, name, tel, regist_day) ";
 $sql .= "values ('$id', '$pass', '$name', '$tel', '$regist_day')";
 

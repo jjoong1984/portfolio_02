@@ -3,7 +3,7 @@
 $id = $_POST['id'];
 $pass = $_POST['pass'];
 
-$con = mysqli_connect('localhost','user1', '12345','sample');
+$con = mysqli_connect('localhost', 'jjoong1984', 'wjdwnd22!', 'jjoong1984');
 $sql = "select * from playmember where id='$id'";
 $result = mysqli_query($con, $sql);
 
